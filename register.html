@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Rent</title>
+    <link rel="stylesheet" href="./style.css">
+ 
+        
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            document.getElementById('myform').addEventListener('submit',function(event){
+                event.preventDefault();
+                alert("Thank you for submitting");
+                this.submit();
+            });
+        });
+    </script>
+    <div class="formfill">
+        <form id="myform" action="index.html">
+            <label for="USERNAME" class="USERNAME">USERNAME</label> 
+            <br>
+            <input class="USERNAME" type="text" name="USERNAME" maxlength="23" required>
+            <br>
+            <label for="PASSWORD" class="PASSWORD">PASSWORD</label>
+            <br>
+            <input class="PASSWORD" type="password" name="PASSWORD" required>
+            <br>
+            <label for="DATE OF BIRTH" class="DATE_OF_BIRTH">DATE OF BIRTH</label>
+            <br>
+            <input class="DATE_OF_BIRTH" type="date" name="DATE_OF_BIRTH" value="" required>
+            <br>
+            <label for="MOBILE" class="MOBILE">MOBILE NO</label>
+             <br />
+            <input class="MOBILE" type="tel" name="MOBILE" pattern="[0-9]{10}" placeholder="1234567891" required>
+            </p>
+            <br>
+            <label for="submit" class="submit"></label>
+            <a href="./real-estate website/index.html"><button type="submit" class="submit">Submit</button></a>
+            <br>
+        </form>
+    </div>
+    <br>
+
+
+   
+        
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./pexels-polina-tankilevitch-5469043.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+
+.formfill > form{
+    /* border: 2px solid black; */
+    backdrop-filter: blur(5px);
+    padding: 100px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+.formfill{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formfill > form > .USERNAME{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.formfill >form >.PASSWORD{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+.formfill > form > .DATE_OF_BIRTH{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 10px;
+    color: black;
+}
+.formfill > form > .MOBILE{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 10px;
+    color: black;
+}
+.formfill > form > a > button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 5px;
+    margin-left: 50px;
+    background-color: rgb(56, 191, 244);
+    color: black;
+    border-radius: 10px;
+    transition: linear;
+}
+.formfill > form > a > button:hover{
+    background-color: rgb(65, 239, 109);
+    transition: linear;
+}
